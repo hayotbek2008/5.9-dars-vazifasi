@@ -1,0 +1,92 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Light Mode */
+body {
+  background-color: grey;
+  color: black;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.todo-app {
+  width: 600px;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: aqua;
+  margin: 50px auto;
+}
+
+.logo {
+  text-align: center;
+}
+
+#form {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#form input {
+  width: 80%;
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+}
+
+#form button {
+  width: 18%;
+  cursor: pointer;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.todo-item {
+  background-color: white;
+  border-radius: 4px;
+  padding: 10px;
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+
+.todo-item span {
+  cursor: pointer;
+  color: blue;
+}
+
+/* Dark Mode */
+body.dark-mode {
+  background-color: #1e1e1e;
+  color: red; 
+}
+
+.todo-app.dark-mode {
+  background-color: #333333;
+}
+
+#form input.dark-mode {
+  background-color: #444444;
+  color: red;
+}
+
+#form button.dark-mode {
+  background-color: #555555;
+  color: red;
+}
+
+.todo-item.dark-mode {
+  background-color: #444444;
+  color: red;
+}
+
+.todo-item span.dark-mode {
+  color: #87ceeb;
+}
