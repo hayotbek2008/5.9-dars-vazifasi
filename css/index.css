@@ -1,11 +1,9 @@
-/* Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Light Mode */
 body {
   background-color: grey;
   color: black;
@@ -60,4 +58,27 @@ body {
 .todo-item span {
   cursor: pointer;
   color: blue;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+.dark-mode .todo-app {
+  background-color: #333333;
+}
+
+.dark-mode #form input {
+  background-color: #444444;
+  color: #e0e0e0;
+}
+
+.dark-mode #form button {
+  background-color: #555555;
+}
+
+.dark-mode .todo-item {
+  background-color: #444444;
+  color: #e0e0e0;
 }
